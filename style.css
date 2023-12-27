@@ -1,0 +1,88 @@
+body{
+    background-image:url('download.jpeg');
+    padding:15px;
+}
+h{
+    font-size:3rem;
+    text-align: center;
+    font-weight: bold;
+    background-color: rgb(240, 255, 255,0.85);
+    padding:1%;
+    border-radius:5px;
+    margin-left:35%;
+    text-decoration:underline;
+    text-decoration-style:solid;
+}
+.intro{
+    margin-top:30px;
+    margin-left:10%;
+    margin-right:10%;
+    background-color: rgb(240, 255, 255,0.85);
+    font-size:1.4rem;
+    padding:5%;
+    border-style: solid;
+    border-color: bisque;
+    border-radius:3%;
+    
+}
+.grid{
+    display:grid;
+    grid-template-columns:2fr 1fr;
+    align-items:center;
+    justify-content: space-around;
+    column-gap:5px;
+}
+.left{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    column-gap:3%;
+    margin-left:4%;
+    margin-top:4%;
+}
+img{
+    width:250px;
+}
+.js-result{
+    font-weight: bold;
+    color:red;
+}
+.right{
+    display:grid;
+    grid-template-rows:3fr 1fr;
+    row-gap:10%;
+}
+.reset{
+    width:40%;
+    margin-left:23%;
+    font-weight: bold;
+    font-size:1.5rem;
+    padding:2%;
+    border-radius:5%;
+    background-color: rgba(242, 197, 142, 0.8);
+    border-style: solid;
+    border-color: rgba(243, 182, 109);
+}
+.reset:hover{
+    background-color: rgb(255, 228, 196,0.8);
+}
+.reset:active{
+    background-color:rgba(243, 182, 109, 0.8);
+}
+.scoreBoard{
+    background-color: rgb(252, 240, 223);
+    font-size:1.4rem;
+    margin-left:5%;
+    margin-right:10%;
+    padding:2%;
+    border-radius:5%;
+}
+.closure{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    background-color: rgb(197, 197, 197);
+    margin-bottom:0px;
+    margin-top:25px;
+    margin-left:20%;
+    margin-right:20%;
+    padding:2px;
+}
