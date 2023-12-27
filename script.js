@@ -73,9 +73,7 @@ function results(playerChoice){
         score.tie++;
     }
     localStorage.setItem('score',JSON.stringify(score));
-    alert(`You picked ${playerChoice} and the computer picked ${computerChoice}. ${result}
-Wins: ${score.wins}  Losses: ${score.losses}  Tie: ${score.tie}`);
-    document.querySelector('.js-choice').innerHTML=`You: ${playerChoice} - Computer: ${computerChoice}`;
+    document.querySelector('.js-choice').innerHTML=`You<img src="${playerChoice}.png" class="score-img"> -  <img src= "${computerChoice}.png" class="score-img">Computer`;
     document.querySelector('.js-result').innerHTML=result;
     update();
 }

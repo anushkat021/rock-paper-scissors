@@ -12,6 +12,7 @@ h{
     margin-left:35%;
     text-decoration:underline;
     text-decoration-style:solid;
+    font-family:Arial, Helvetica, sans-serif;
 }
 .intro{
     margin-top:30px;
@@ -23,41 +24,64 @@ h{
     border-style: solid;
     border-color: bisque;
     border-radius:3%;
+    font-family: Arial, Helvetica, sans-serif;
     
 }
 .grid{
     display:grid;
-    grid-template-columns:2fr 1fr;
+    grid-template-columns:2fr 1.2fr;
     align-items:center;
     justify-content: space-around;
     column-gap:5px;
 }
 .left{
     display:grid;
+    grid-template-rows:3.7fr 1fr;
+    row-gap:3%;
+    margin-right:4px;
+}
+.moves{
+    display:grid;
     grid-template-columns:1fr 1fr 1fr;
-    column-gap:3%;
-    margin-left:4%;
-    margin-top:4%;
+    column-gap:2%;
 }
 img{
-    width:250px;
+    width:200px;
+    
+}
+.move-button{
+    background-color:rgba(255, 135, 135, 0.5);
+    border-style: solid;
+    border-color:beige;
+    border-width:7px;
+    border-radius:50%;
+    padding:10px;
+    cursor:pointer;
 }
 .js-result{
     font-weight: bold;
     color:red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:2.5rem;
+    margin-bottom:0px;
+    margin-top:0px;
+}
+.score-img{
+    width:150px;
 }
 .right{
     display:grid;
-    grid-template-rows:3fr 1fr;
-    row-gap:10%;
+    grid-template-rows:3.5fr 1fr;
+    row-gap:7%;
 }
 .reset{
     width:40%;
     margin-left:23%;
     font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
     font-size:1.5rem;
     padding:2%;
-    border-radius:5%;
+    border-radius:15%;
     background-color: rgba(242, 197, 142, 0.8);
     border-style: solid;
     border-color: rgba(243, 182, 109);
@@ -71,18 +95,18 @@ img{
 .scoreBoard{
     background-color: rgb(252, 240, 223);
     font-size:1.4rem;
-    margin-left:5%;
-    margin-right:10%;
     padding:2%;
     border-radius:5%;
+    height:300px;
 }
 .closure{
     display:grid;
     grid-template-columns:1fr 1fr;
     background-color: rgb(197, 197, 197);
     margin-bottom:0px;
-    margin-top:25px;
+    margin-top:15px;
     margin-left:20%;
     margin-right:20%;
+    font-family:Arial, Helvetica, sans-serif;
     padding:2px;
 }
